@@ -37,17 +37,20 @@ const Hero = () => {
           <div>
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}>
-              Hi, I'm{' '}
+              Hi, I'm{' '}<br className="sm:block hidden" />
               <span
                 className="sm:text-battleGray sm:text-[90px] 
                 text-eerieBlack text-[50px] font-mova
                 font-extrabold uppercase">
-                Shaquille
+                Josh
               </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-eerieBlack`}>
-              Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
-              consectetur adipisicing elit deleniti, voluptas.
+              {/* Lorem ipsum dolor sit amet. <br className="sm:block hidden" />
+              consectetur adipisicing elit deleniti, voluptas. */}
+              AI Developer passionate in using my creativity and problem-solving skills to simply make things work. <br className="sm:block hidden" />
+              I want to utilize my interpersonal skills and my technical software background to work with innovative teams on the world’s most cutting-edge technologies.
+
             </p>
           </div>
           <div
@@ -82,13 +85,13 @@ const Hero = () => {
 
         {/* Your image comes here. Feel free to remove image if you don't plan to have one.*/}
         <div>
-          <img
+          {/* <img
             className="absolute bottom-0 ml-[50vw] 
             lg:ml-[75vw] md:ml-[60vw] xmd:ml-[60vw] 2xl:ml-[83vw]
             sm:h-[90vh] md:h-[70vh] xl:h-[80vh]"
             src={shaq}
             alt="shaquille"
-          />
+          /> */}
         </div>
       </section>
     </>
