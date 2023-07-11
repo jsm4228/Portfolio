@@ -37,7 +37,7 @@ const Hero = () => {
             <div className="w-1 sm:h-80 h-40 bw-gradient sm:hidden" />
           </div>
 
-          <div className="min-w-[225px]">
+          <div className="min-w-[250px]">
             <h1
               className={`${styles.heroHeadText} text-eerieBlack font-poppins uppercase`}
             >
