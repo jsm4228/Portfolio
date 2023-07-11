@@ -27,6 +27,8 @@ import {
   dcc,
   kelhel,
   microverse,
+  mongodb,
+  express,
 } from "../assets";
 
 export const navLinks = [
@@ -81,8 +83,20 @@ const technologies = [
     icon: typescript,
   },
   {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  {
+    name: "Express JS",
+    icon: express,
+  },
+  {
     name: "React JS",
     icon: reactjs,
+  },
+  {
+    name: "Node JS",
+    icon: nodejs,
   },
   // {
   //   name: "Redux Toolkit",
@@ -92,10 +106,7 @@ const technologies = [
     name: "Tailwind CSS",
     icon: tailwind,
   },
-  {
-    name: "Node JS",
-    icon: nodejs,
-  },
+
   // {
   //   name: "Rails",
   //   icon: rubyrails,
