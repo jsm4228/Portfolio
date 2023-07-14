@@ -29,6 +29,8 @@ import {
   microverse,
   mongodb,
   express,
+  python,
+  java,
 } from "../assets";
 
 export const navLinks = [
@@ -78,9 +80,17 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
+  // {
+  //   name: "TypeScript",
+  //   icon: typescript,
+  // },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Java",
+    icon: java,
   },
   {
     name: "MongoDB",
