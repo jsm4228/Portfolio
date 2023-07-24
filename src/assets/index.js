@@ -53,6 +53,9 @@ import math from "./projects/math-magicians.png";
 import movie from "./projects/movie-metro.png";
 import nyeusi from "./projects/nyeusi.png";
 import space from "./projects/space-hub.png";
+import helloWorld from "./projects/helloWorld.png";
+import event from "./projects/event.png";
+import cocktail from "./projects/cocktail.png";
 
 export {
   bwmap,
@@ -104,4 +107,7 @@ export {
   express,
   python,
   java,
+  helloWorld,
+  event,
+  cocktail,
 };

@@ -31,6 +31,9 @@ import {
   express,
   python,
   java,
+  helloWorld,
+  cocktail,
+  event,
 } from "../assets";
 
 export const navLinks = [
@@ -194,7 +197,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: komikult,
+    image: helloWorld,
     repo: "https://github.com/kevinleet/helloWorld_frontend",
     demo: "https://helloworldfrontend-production.up.railway.app/",
   },
@@ -217,7 +220,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: leaderboard,
+    image: cocktail,
     repo: "https://github.com/jsm4228/u3_lab_react_axios_foodE/blob/main/README.md",
     demo: "https://cocktail-recipes-123.netlify.app/",
   },
@@ -240,7 +243,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: math,
+    image: event,
     repo: "https://github.com/jsm4228/TicketMaster-Frontend/",
     demo: "https://event-pulse.vercel.app/",
   },
