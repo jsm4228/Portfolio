@@ -71,6 +71,12 @@ const Contact = () => {
         <p className={styles.sectionSubText}>Get in touch</p>
         <h3 className={styles.sectionHeadTextLight}>Contact.</h3>
         <p className={styles.sectionSubText}>jsmathew41@gmail.com</p>
+        <p className={styles.sectionSubText}>
+          <a href="https://www.linkedin.com/in/joshua-mathew41/">LinkedIn</a>
+        </p>
+        <p className={styles.sectionSubText}>
+          <a href="https://github.com/jsm4228">Github</a>
+        </p>
         {/* <form
           ref={formRef}
           onSubmit={handleSubmit}

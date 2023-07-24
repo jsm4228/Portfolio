@@ -80,10 +80,10 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  // {
-  //   name: "TypeScript",
-  //   icon: typescript,
-  // },
+  {
+    name: "TypeScript",
+    icon: typescript,
+  },
   {
     name: "Python",
     icon: python,
@@ -125,10 +125,10 @@ const technologies = [
   //   name: "graphql",
   //   icon: graphql,
   // },
-  // {
-  //   name: "postgresql",
-  //   icon: postgresql,
-  // },
+  {
+    name: "postgresql",
+    icon: postgresql,
+  },
   {
     name: "git",
     icon: git,
@@ -221,28 +221,29 @@ const projects = [
     repo: "https://github.com/jsm4228/u3_lab_react_axios_foodE/blob/main/README.md",
     demo: "https://cocktail-recipes-123.netlify.app/",
   },
-  // {
-  //   id: "project-3",
-  //   name: "Math Magicians",
-  //   description: "This is a single-page calculator app built with React",
-  //   tags: [
-  //     {
-  //       name: "nextjs",
-  //       color: "blue-text-gradient",
-  //     },
-  //     {
-  //       name: "supabase",
-  //       color: "green-text-gradient",
-  //     },
-  //     {
-  //       name: "css",
-  //       color: "pink-text-gradient",
-  //     },
-  //   ],
-  //   image: math,
-  //   repo: "https://github.com/shaqdeff/Math-Magicians",
-  //   demo: "https://inspiring-medovik-37d3b3.netlify.app/",
-  // },
+  {
+    id: "project-3",
+    name: "TicketMaster",
+    description:
+      "A web application for viewing tickets available at various venues",
+    tags: [
+      {
+        name: "nextjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "supabase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: math,
+    repo: "https://github.com/jsm4228/TicketMaster-Frontend/",
+    demo: "https://event-pulse.vercel.app/",
+  },
   // {
   //   id: "project-4",
   //   name: "Movie Metro",
