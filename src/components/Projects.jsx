@@ -84,14 +84,25 @@ const ProjectCard = ({
             >
               {description}
             </p>
-            <p
-              className="text-silver sm:text-[14px] text-[12px] 
+            {username ? (
+              <div>
+                <br />
+                <p
+                  className="text-silver sm:text-[14px] text-[12px] 
               max-w-3xl sm:leading-[24px] leading-[18px]
-              font-poppins tracking-[1px]"
-            >
-              username:{username}
-              password:{password}
-            </p>
+              font-poppins tracking-[1px] font-bold"
+                >
+                  username: {username}
+                </p>
+                <p
+                  className="text-silver sm:text-[14px] text-[12px] 
+              max-w-3xl sm:leading-[24px] leading-[18px]
+              font-poppins tracking-[1px] font-bold"
+                >
+                  password: {password}
+                </p>{" "}
+              </div>
+            ) : null}
             <button
               className="live-demo flex justify-between 
               sm:text-[16px] text-[14px] text-timberWolf 
