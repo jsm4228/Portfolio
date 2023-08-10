@@ -184,6 +184,8 @@ const projects = [
     name: "Chat App with ChatGPT",
     description:
       "A real-time chat applications with user authentication, OpenAI ChatGPT integration, friend request, and real-time messages powered by socket.io",
+    username: "jsmathew41@gmail.com",
+    password: "a",
     tags: [
       {
         name: "react",
@@ -207,6 +209,8 @@ const projects = [
     name: "recipes.ai",
     description:
       "A recipe application utlizing OpenAI's API to generate recipes and corresponding images based on user inputs.",
+    username: "test@test.com",
+    password: "t",
     tags: [
       {
         name: "react",
@@ -230,6 +234,8 @@ const projects = [
     name: "Cocktail Recipes",
     description:
       "A recipe application utilzing a 3rd-party API to beatifully and easily display recipes for thousands of cocktails with React.js",
+    username: null,
+    password: null,
     tags: [
       {
         name: "react",
@@ -253,6 +259,8 @@ const projects = [
     name: "TicketMaster",
     description:
       "A web application for viewing tickets available at various venues",
+    username: null,
+    password: null,
     tags: [
       {
         name: "nextjs",

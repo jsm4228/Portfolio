@@ -10,6 +10,8 @@ const ProjectCard = ({
   id,
   name,
   description,
+  username,
+  password,
   image,
   repo,
   demo,
@@ -81,6 +83,14 @@ const ProjectCard = ({
               font-poppins tracking-[1px]"
             >
               {description}
+            </p>
+            <p
+              className="text-silver sm:text-[14px] text-[12px] 
+              max-w-3xl sm:leading-[24px] leading-[18px]
+              font-poppins tracking-[1px]"
+            >
+              username:{username}
+              password:{password}
             </p>
             <button
               className="live-demo flex justify-between 
