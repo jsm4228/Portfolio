@@ -41,6 +41,7 @@ import mongodb from "./tech/mongodb.jpeg";
 import express from "./tech/express.png";
 import python from "./tech/python.png";
 import java from "./tech/java.png";
+import openai from "./tech/openai.png";
 
 import coverhunt from "./company/coverhunt.png";
 import dcc from "./company/dcc.png";
@@ -112,4 +113,5 @@ export {
   event,
   cocktail,
   recipes,
+  openai,
 };

@@ -15,6 +15,7 @@ import {
   figma,
   docker,
   postgresql,
+  openai,
   rubyrails,
   graphql,
   komikult,
@@ -144,6 +145,10 @@ const technologies = [
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "OpenAI API",
+    icon: openai,
   },
 ];
 
