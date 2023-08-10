@@ -56,6 +56,7 @@ import space from "./projects/space-hub.png";
 import helloWorld from "./projects/helloWorld.png";
 import event from "./projects/event.png";
 import cocktail from "./projects/cocktail.png";
+import recipes from "./projects/recipes.png";
 
 export {
   bwmap,
@@ -110,4 +111,5 @@ export {
   helloWorld,
   event,
   cocktail,
+  recipes,
 };

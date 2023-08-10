@@ -34,6 +34,7 @@ import {
   helloWorld,
   cocktail,
   event,
+  recipes,
 } from "../assets";
 
 export const navLinks = [
@@ -200,6 +201,29 @@ const projects = [
     image: helloWorld,
     repo: "https://github.com/kevinleet/helloWorld_frontend",
     demo: "https://helloworldfrontend-production.up.railway.app/",
+  },
+  {
+    id: "project-4",
+    name: "recipes.ai",
+    description:
+      "A recipe application utlizing OpenAI's API to generate recipes and corresponding images based on user inputs.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "restapi",
+        color: "green-text-gradient",
+      },
+      {
+        name: "scss",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: recipes,
+    repo: "https://github.com/jsm4228/recipe.ai-client/blob/main/README.md",
+    demo: "https://recipe-ai-client.vercel.app/",
   },
   {
     id: "project-2",
